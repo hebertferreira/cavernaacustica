@@ -22,16 +22,75 @@ header{
     background-position: center;
 }
 
+.thetext-box{
+    position: absolute;
+    width: 480px;
+    top: 10%;
+    margin-left: 25px;
+}
+
+.thetext-box h2{
+    margin-top: 0;
+    margin-bottom: 60px;
+    color: #fff;
+    font-size: 35px;
+    word-spacing: 4px;
+    
+}
+
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.section-group{
-    padding: 10px;
+section{
+    padding: 16px 0px;
 }
 
-.row h3{
+section div h2{
+    color: #555;
+    word-spacing: 4px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+section div h2: after{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+    content: " ";
+    background-color: #e67e22;
+    height: 2px;
+    width: 100px;
+    margin: 30px auto;
+}
+
+section div h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.icon-big{
+    font-size: 220%;
+    color: #e67e22;
+    display: block;
+}
+
+.box h3,
+i{
+    line-height: 120%;
+    word-spacing: 4px;
+    font-size: 90%;
     text-align: center;
 }
 
+.box p{
+    line-height: 150%;
+    word-spacing: 4px;
+    font-size: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
