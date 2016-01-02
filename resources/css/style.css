@@ -1,7 +1,8 @@
+/* ---- TODO HTML ---- */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 html{
@@ -9,7 +10,7 @@ html{
 
     /* --- Formatação p/ todos ostextos do Html --- */
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Lato', 'Arial','Courier' sans-serif;
     font-weight: 300px;
     font-size: 16px;
     text-rendering: optimizeLegibility;
@@ -22,38 +23,84 @@ header{
     background-position: center;
 }
 
+a{
+    text-decoration: none;
+}
+
+/* ---- TODO HTML ---- */
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color:#fff;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.main-nav li input{
+    font-style: italic;
+    text-align: center;
+    border-radius: 12px;
+    border-bottom-width:thin;
+    border-style: hidden;
+}
+
+.main-nav li i{
+    
+}
+
 .thetext-box{
     position: absolute;
     width: 480px;
     top: 10%;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .thetext-box h2{
+    font-family: Lato;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     color: #fff;
     font-size: 35px;
     word-spacing: 4px;
-    
+        
+}
+.thetext-box div{
+    color: #fff;
+    width: 330px;
+    height: 45px;
+    word-spacing: 3px;
 }
 
 .row{
     max-width: 1140px;
     margin: 0 auto;
+    clear: both;
 }
 
 section{
     padding: 16px 0px;
+    clear: both;
 }
 
 section div h2{
+    clear: both;
     color: #555;
     word-spacing: 4px;
     text-align: center;
     margin-bottom: 0;
 }
-
 
 section div h2: after{
     margin-top: 30px;
@@ -93,4 +140,12 @@ i{
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
+}
+
+.meio-corpo{
+    clear: both;
+    background-color: dimgrey;
+    height: 65vh; /* --- Zoom(Tamanho) da imagem dentro daquela área --- */
+    background-size:cover;
+    background-position: center;
 }
